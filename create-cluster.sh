@@ -1,0 +1,2 @@
+#! /usr/bin/env bash
+gcloud dataproc clusters create cluster-teste --enable-component-gateway --region us-central1 --zone us-central1-c --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers 5 --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 2.0-debian10 --optional-components JUPYTER --project maximal-height-352013
